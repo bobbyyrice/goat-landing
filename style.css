@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
     text-decoration: none;
     color: #F9FAF8;
+}
+
+button{
+    
 }
 
 /* top box */
@@ -15,9 +27,51 @@ a{
     color: #F9FAF8;
     display: flex;
     box-sizing: border-box;
-    padding: 8px 150px 0px 150px; /* N E S W */
+    padding: 8px 150px 8px 150px; /* N E S W */
+    height: 900px;
+    flex-direction: column;
 }
 
 .header{
     display: flex;
+    
+}
+
+.yuh{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.toplinks{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+/* stuff under links luh */
+
+.abovetext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlenstuff{
+    flex-direction: column;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.titlesubtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.theotherhalf{
+    justify-content: center;
+    align-items: center;
 }
