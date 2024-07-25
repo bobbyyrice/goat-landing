@@ -38,7 +38,7 @@ button{
 
 .header{
     display: flex;
-    margin: 8px 0 50px 0;
+    margin: 8px 0 30px 0;
 }
 
 .yuh{
@@ -132,31 +132,42 @@ img.theotherhalf{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    padding: 70px 150px 70px 150px;
 }
 
 .randostuff{
     font-size: 36px;
     font-weight: 1000;
+    margin-bottom: 40px;
     display: flex;
 }
 
 .the4blocks{
     display: flex;
-
+    gap: 24px;
 }
 
 .block1{
-    width: 120px;
+    width: 240px;
     height: auto;
-    border: 30px;
-    border-color: black;
+    text-align: center;
 }
 
 
 .thebox{
-
+    display: flex;
+    width: 240px;
+    height: 240px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4em;
+    border-color: #3882F6;
+    border: 4em;
 }
 
 .blocktext{
-
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
 }
