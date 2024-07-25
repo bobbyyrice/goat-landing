@@ -236,11 +236,11 @@ img.theotherhalf{
 .bottombutton {
     border-radius: 8px;
     background-color: #3882F6;
-    border: 6px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
     color: #F9FAF8;
     text-align: center;
     font-size: 28px;
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
@@ -271,3 +271,15 @@ img.theotherhalf{
     opacity: 1;
     right: 0;
   }
+
+/* footer */
+
+.bottomcontainer{
+    padding: 30px 70px 30px 70px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
