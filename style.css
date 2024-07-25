@@ -171,3 +171,33 @@ img.theotherhalf{
     font-weight: 500;
     font-size: 24px;
 }
+
+/* 3rd page */
+
+.underundertopcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 70px 250px 70px 250px;
+}
+
+.bigtext{
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.smalltext{
+    margin-left: auto;
+}
+
+
+.smalltext1{
+    font-weight: 900;    
+    font-size: 24px;
+    
+}
+
+/* 4th page */
