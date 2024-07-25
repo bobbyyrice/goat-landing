@@ -201,3 +201,73 @@ img.theotherhalf{
 }
 
 /* 4th page */
+
+.underunderundertopcontainer{
+    color: #F9FAF8;
+    background-color: #F9FAF8;
+    padding: 70px 250px 70px 250px;
+}
+
+.thecontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+    height: 150px;
+    width: auto;
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.textabove{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.undertext{
+    font-size: 24px;
+}
+
+/* copy n paste again */
+.bottombutton {
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 6px solid #F9FAF8;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .bottombutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .bottombutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .bottombutton:hover span {
+    padding-right: 25px;
+  }
+  
+  .bottombutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
