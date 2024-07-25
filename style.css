@@ -133,7 +133,7 @@ img.theotherhalf{
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    padding: 70px 150px 70px 150px;
+    padding: 70px 150px 140px 150px;
 }
 
 .randostuff{
@@ -145,10 +145,15 @@ img.theotherhalf{
 
 .the4blocks{
     display: flex;
-    gap: 24px;
+    flex: 1 1 0;
+    justify-content: space-between;
+    gap: 48px;
 }
 
 .block1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
