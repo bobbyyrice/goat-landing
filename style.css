@@ -149,21 +149,16 @@ img.theotherhalf{
 }
 
 .block1{
-    width: 240px;
-    height: auto;
     text-align: center;
 }
 
 
-.thebox{
+.thebox img{
     display: flex;
     width: 240px;
     height: 240px;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 4em;
-    border-color: #3882F6;
-    border: 4em;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
 }
 
 .blocktext{
