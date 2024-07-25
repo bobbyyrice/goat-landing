@@ -209,13 +209,17 @@ img.theotherhalf{
 }
 
 .thecontainer{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
     border-radius: 15px;
     height: 150px;
+    min-width: 650px;
     width: auto;
+    padding: 40px;
+    overflow: hidden;
 }
 
 .textcontainer{
